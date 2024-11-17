@@ -1,0 +1,18 @@
+{
+    "image": "ghcr.io/ankudinov/rpm-test/alma-dev:latest",
+    "containerEnv": {
+        "ARISTA_TOKEN": "${localEnv:ARTOKEN}",
+        "CONTAINERWSF": "${containerWorkspaceFolder}",
+        "CVP_VERSION": "2024.3.0"
+    },
+    "secrets": {
+        "ARTOKEN": {
+            "description": "token to auto-download EOS images from arista.com."
+        }
+    },
+    // set minimum host requirements for codespaces
+    "hostRequirements": {
+        "cpus": 16,
+        "memory": "64gb"
+    }
+}
