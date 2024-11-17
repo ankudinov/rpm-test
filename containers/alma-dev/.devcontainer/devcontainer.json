@@ -2,12 +2,6 @@
 	"name": "ansible-avd-devcontainer",
 	"build": {
         "dockerfile": "Dockerfile"
-    },
-    "features": {
-        // Add sshd to support gh cli codespace cp.
-        "ghcr.io/devcontainers/features/sshd:1": {
-            "version": "latest"
-        }
     }
     // "postCreateCommand": "postCreate.sh"
 }
