@@ -1,4 +1,4 @@
-FROM almalinux:9.4-minimal
+FROM almalinux:9.4
 
 # copy postCreate script
 COPY ./postCreate.sh /bin/postCreate.sh
