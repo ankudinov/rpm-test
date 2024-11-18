@@ -2,6 +2,6 @@
 	"name": "ansible-avd-devcontainer",
 	"build": {
         "dockerfile": "Dockerfile"
-    }
-    // "postCreateCommand": "postCreate.sh"
+    },
+    "postCreateCommand": "postCreate.sh"
 }
